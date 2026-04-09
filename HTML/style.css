@@ -1,0 +1,38 @@
+body{
+    display: block;
+    margin: 0;
+    background-image: url(https://static.todamateria.com.br/upload/57/c2/57c2fc852d3d8-cruz-e-souza.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    line-height: 2px;
+
+    }
+
+.titulos{
+    display: block;
+}
+h1{
+    
+    background-color: blueviolet;
+
+}
+h3{
+    margin-top: -30px;
+    background-color: brown;
+    
+    
+    
+}
+
+div{
+    text-shadow: 2px 2px 2px black;
+    color: aliceblue;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
