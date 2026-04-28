@@ -6,3 +6,4 @@ function escolheLetra(letraClicada){
 
     document.getElementById("letraselecionada").innerHTML = conteudo;
 }
+
