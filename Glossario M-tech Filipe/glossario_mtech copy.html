@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Dicionário de Programação A</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <div id="indice">
+        <h1>Dicionário de Programação</h1>
+
+    <!-- MENU A - Z -->
+        <p>
+            <button id="botaoA" onclick="escolheLetra(this)" class="botaoletrasindice">A</button>
+            <button id="botaoB" onclick="escolheLetra(this)" class="botaoletrasindice">B</button>
+        </p>
+    </div>
+</nav>
+
+
+<dl id="glossario">
+    <!-- A -->
+    <div id="A">
+        <h2>A</h2>
+
+        <dt><strong>Algoritmo</strong></dt>
+        <dd><em>Sequência lógica de passos usada para resolver um problema.</em></dd>
+
+        <dt><strong>API</strong></dt>
+        <dd><em>Interface que permite a comunicação entre diferentes sistemas.</em></dd>
+
+        <dt><strong>Array</strong></dt>
+        <dd><em>Estrutura de dados que armazena múltiplos valores em uma única variável.</em></dd>
+
+        <dt><strong>ASCII</strong></dt>
+        <dd><em>Padrão que representa caracteres em formato numérico.</em></dd>
+
+        <a href="#indice" class="botaoindice">Índice</a>
+    </div>
+
+    <!-- B -->
+    <div id="B">
+        <h2>B</h2>
+
+        <dt><strong>Backend</strong></dt>
+        <dd><em>Parte do sistema responsável pela lógica e processamento de dados.</em></dd>
+
+        <dt><strong>Banco de Dados</strong></dt>
+        <dd><em>Sistema organizado para armazenar e gerenciar informações.</em></dd>
+
+        <dt><strong>Boolean</strong></dt>
+        <dd><em>Tipo de dado que representa verdadeiro ou falso.</em></dd>
+
+        <dt><strong>Bug</strong></dt>
+        <dd><em>Erro no código que gera comportamento inesperado.</em></dd>
+
+        <a href="#indice" class="botaoindice">Índice</a>
+    </div>
+</dl>
+
+<div id="letraselecionada">   <!-- onde aparecerá a letra selecionada -->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

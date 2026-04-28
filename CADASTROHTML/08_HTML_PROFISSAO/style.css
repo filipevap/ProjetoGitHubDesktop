@@ -1,0 +1,9 @@
+.card{
+    width: 50%;
+    background-color: blueviolet;
+}
+button{
+    background-color: blue;
+    width: 25%;
+    padding: 30px;
+}
