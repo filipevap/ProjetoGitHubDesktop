@@ -1,0 +1,188 @@
+/* ===== GERAL ===== */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url(img/background_programacao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: -1;
+}
+
+
+/* ===== ÁREA PRINCIPAL ===== */
+
+#indice {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+
+
+/* ===== TÍTULOS ===== */
+
+#indice h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 70px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    text-shadow: 0 0 25px rgb(226, 214, 214);
+}
+
+#indice h2 {
+    margin-top: 30px;
+}
+
+
+/* ===== PESQUISA ===== */
+
+.divpesquisa {
+    margin-top: 30px;
+}
+
+.caixapesquisa {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.caixapesquisa input {
+    width: 300px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+.caixapesquisa button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* ===== LETRAS A-Z ===== */
+
+.divorganizaalfabeto {
+    margin-top: 30px;
+}
+
+.divorganizaalfabeto p {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 10px;
+}
+
+.botaoletrasindice {
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botaoletrasindice:hover {
+    background: white;
+    color: #222;
+    transform: scale(1.08);
+}
+
+
+/* ===== GLOSSÁRIO ===== */
+
+#glossario {
+    display: none;
+}
+
+
+/* ===== RESULTADO ===== */
+
+#letraselecionada {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+    max-width: 900px;
+    max-height: 80vh;
+    overflow-y: auto;
+
+    padding: 30px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    color: white;
+
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.25);
+}
+
+
+/* ===== BOTÃO ÍNDICE ===== */
+
+.botaoindice {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.botaoindice:hover {
+    background: white;
+    color: #222;
+}
+
+
+/* ===== BOTÃO FECHA CARD ===== */
+
+.botaofechacard {
+    display: block;
+    margin-left: auto;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #222;
+    color: white;
+
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.botaofechacard:hover {
+    background: white;
+    color: #222;
+    transform: scale(1.08);
+}
