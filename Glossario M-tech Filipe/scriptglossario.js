@@ -17,7 +17,7 @@ function fechaCard(){
 function botaoPesquisar() {
 
     let termoPesquisa = document
-        .getElementById("palavrapesquisada")
+        .getEl("palavrapesquisada")
         .value
         .toLowerCase();
 

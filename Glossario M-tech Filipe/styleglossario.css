@@ -36,7 +36,7 @@ body::before {
 /* ===== TÍTULOS ===== */
 
 #indice h1 {
-    font-family: "Press Start 2P", system-ui;
+    font-family: Arial, Helvetica, sans-serif, system-ui;
     font-size: 70px;
     font-weight: 400;
     font-style: normal;
@@ -63,7 +63,7 @@ body::before {
 }
 
 .caixapesquisa input {
-    width: 300px;
+    width: 1000px;
     padding: 12px;
     border-radius: 8px;
     border: none;

@@ -1,0 +1,1 @@
+print("Olá, Mundo!") #print mostra valor na tela

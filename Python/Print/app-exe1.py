@@ -1,0 +1,8 @@
+print("Filipe")
+print("Brasileiro")
+print("Amancebado")
+print("Advogado")
+print("Garoto de Programa")
+print("Pai da Valentina")
+print("Filho da Madalena")
+print("Ganhou um Trento")
