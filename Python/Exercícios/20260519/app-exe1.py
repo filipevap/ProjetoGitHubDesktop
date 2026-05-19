@@ -11,5 +11,5 @@ idade = int(input(f"{nome}, você não passa de um delinquente! Eu sou uma autor
 if idade >= 18:
     print("Você já responde pelos seus atos. Já para o corró!")
 else:
-    print("Apanhou pouco em casa, hein?! Liguem para os pais deste garoto.")
+    print("Apanhou pouco em casa, hein?! Liguem para os pais deste garoto, pois ele não responde por si próprio")
  

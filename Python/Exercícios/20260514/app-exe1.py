@@ -14,7 +14,7 @@
 
 peso = input("Qual é a sua altura? ")
 pesoo = peso.replace(".", ",")
-print(f"O seu peso é {pesoo}")
+print(f"A sua altura {pesoo}")
                    
 
 

@@ -13,4 +13,4 @@ bone = float(input("Qual o valor do boné? "))
 mochila = float(input("Qual o valor da mochila? "))
 cinto = float(input("Qual o valor do cinto? "))
 total = camiseta+calca+tenis+bone+mochila+cinto
-print(f"A sua compra custou R$ {total:.2f}. Se for pagar no PIX eu vou te dar R$ 30,00 de desconto: vai ficar R$ {total-30:.2f}. Se for levar mais uma camiseta, ficará {total+camiseta-30:.2f}, já com desconto")
+print(f"A sua compra custou R$ {total:.2f}. Se for pagar no PIX eu vou te dar R$ 30,00 de desconto: vai ficar R$ {total-30:.2f}. Se for levar mais uma camiseta, ficará R$ {total+camiseta-30:.2f}, já com desconto")
